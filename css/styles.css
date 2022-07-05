@@ -1,0 +1,38 @@
+*{
+    font-family:"Open sans", cursive;
+}
+
+body {
+    display: flex;
+    color: darkred;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+button{
+    height: 90px;
+    width: 90px;
+    border-radius: 75%;
+    border: 4px solid darkred;
+    background-color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 30px;
+}
